@@ -1,0 +1,12 @@
+.connect-left {
+  position: relative;
+}
+
+.connect-left::after {
+  content: "";
+  position: absolute;
+  height: calc(50% + 0.5rem);
+  top: calc(25% - 0.25rem);
+  right: 0;
+  border-right: 1px solid black;
+}

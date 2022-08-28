@@ -1,0 +1,8 @@
+.block-container {
+  padding: 8px 16px;
+  border: 1px solid grey;
+  min-width: 120px;
+}
+.block-winner-tag {
+  color: red;
+}
